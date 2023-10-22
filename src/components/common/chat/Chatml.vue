@@ -84,7 +84,7 @@ function genRichContent(content) {
 
   color: var(--el-color-warning-light-5);
 
-  filter: invert(15%) brightness(150%);
+  // filter: invert(15%) brightness(150%);
 }
 
 .ChatPage-Inner {
