@@ -176,6 +176,20 @@ function expandDetails(ele) {
 
 <style lang="scss">
 .ChatPage-Mark {
+  &:before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    opacity: .25;
+    background-color: var(--el-bg-color);
+  }
   span {
     padding: 4px 8px;
     margin-right: 12px;
@@ -204,6 +218,7 @@ function expandDetails(ele) {
   bottom: 0;
 
   box-sizing: border-box;
+  backdrop-filter: blur(18px) saturate(180%);
   border-top: 1px solid var(--el-border-color);
 }
 
