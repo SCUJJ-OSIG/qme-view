@@ -36,7 +36,7 @@ onMounted(() => {
     animation: fadeInUpR .25s var(--i) ease-in-out forwards;
   }
   &:last-child {
-    margin-bottom: 20%;
+    margin-bottom: 30%;
   }
   position: relative;
   margin: 1% 0;

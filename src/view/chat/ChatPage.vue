@@ -297,7 +297,7 @@ function expandDetails(ele) {
 
     top: -10px;
   }
-
+  z-index: 1;
   position: absolute;
   padding: 4px 10px;
   display: flex;
