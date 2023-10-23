@@ -2,7 +2,7 @@
   <div class="ChatmlPage">
     <el-scrollbar>
       <div class="ChatPage-Inner">
-        <ChatLine :right="item.right" :index="index" @init="handleInit" v-for="(item, index) in arr">
+        <ChatLine :right="item.right" :index="index" v-for="(item, index) in arr">
           <template #content>
             <span v-html="genRichContent(item.content)" />
           </template>
